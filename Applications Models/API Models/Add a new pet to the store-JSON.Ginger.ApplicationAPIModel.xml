@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="23b2f8b2-975f-4e55-9a24-d7ee074a67e2" ItemType="ApplicationAPIModel" CreatedBy="HCHAUHAN" Created="202310160329" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="HCHAUHAN" LastUpdate="202310160330" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" Description="Body Type is JSON" EndpointURL="https://petstore.swagger.io/v2/pet" Guid="23b2f8b2-975f-4e55-9a24-d7ee074a67e2" Name="Add a new pet to the store-JSON" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBody="{&#xD;&#xA;  &quot;id&quot;: &lt;ID&gt;,&#xD;&#xA;  &quot;category&quot;: {&#xD;&#xA;    &quot;id&quot;: &lt;ID1&gt;,&#xD;&#xA;    &quot;name&quot;: &quot;&lt;NAME&gt;&quot;&#xD;&#xA;  },&#xD;&#xA;  &quot;name&quot;: &quot;&lt;NAME1&gt;&quot;,&#xD;&#xA;  &quot;photoUrls&quot;: [&#xD;&#xA;    &lt;PHOTOURLS[0]&gt;&#xD;&#xA;  ],&#xD;&#xA;  &quot;tags&quot;: [&#xD;&#xA;    {&#xD;&#xA;      &quot;id&quot;: &quot;&lt;ID2&gt;&quot;,&#xD;&#xA;      &quot;name&quot;: &quot;&lt;NAME2&gt;&quot;&#xD;&#xA;    }&#xD;&#xA;  ],&#xD;&#xA;  &quot;status&quot;: &quot;&lt;STATUS&gt;&quot;&#xD;&#xA;}" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~eb921237-5d3d-4c0f-aab5-824a547f10af" URLDomain="https://petstore.swagger.io/v2">
+<AppModelParameters>
+<AppModelParameter Guid="def23539-0bb0-4c02-8673-82b397ed0ce0" ParentGuid="00000000-0000-0000-0000-000000000000" Path="id" PlaceHolder="&lt;ID&gt;" TagName="id">
+<OptionalValuesList>
+<OptionalValue Guid="18f09f80-5297-4e03-8138-a1e0579ff3fa" IsDefault="True" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
+</OptionalValuesList>
+</AppModelParameter>
+<AppModelParameter Guid="ed5e5c3a-e2db-44e5-acda-de9d7c197295" ParentGuid="00000000-0000-0000-0000-000000000000" Path="category.id" PlaceHolder="&lt;ID1&gt;" TagName="id">
+<OptionalValuesList>
+<OptionalValue Guid="1ff6c83f-42bf-48e1-81b6-c94a0351a2e2" IsDefault="True" ParentGuid="00000000-0000-0000-0000-000000000000" Value="10077411" />
+</OptionalValuesList>
+</AppModelParameter>
+<AppModelParameter Guid="c5d81e82-76ce-4023-8b17-c4a44c2e7fc0" ParentGuid="00000000-0000-0000-0000-000000000000" Path="category.name" PlaceHolder="&lt;NAME&gt;" TagName="name">
+<OptionalValuesList>
+<OptionalValue Guid="bdfd3c40-57b7-4d85-bfe0-07155245cab7" IsDefault="True" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Cat" />
+</OptionalValuesList>
+</AppModelParameter>
+<AppModelParameter Guid="05207bb3-d284-4f5c-a06f-b409a33f927f" ParentGuid="00000000-0000-0000-0000-000000000000" Path="name" PlaceHolder="&lt;NAME1&gt;" TagName="name">
+<OptionalValuesList>
+<OptionalValue Guid="c08efdab-dbfb-4c35-9654-59b8fb81a70c" IsDefault="True" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Jerry" />
+</OptionalValuesList>
+</AppModelParameter>
+<AppModelParameter Guid="8b439403-9f6f-4a32-bb76-4f664c491631" ParentGuid="00000000-0000-0000-0000-000000000000" Path="photoUrls[0]" PlaceHolder="&lt;PHOTOURLS[0]&gt;" RequiredAsInput="False" TagName="photoUrls[0]" />
+<AppModelParameter Guid="cde477a4-5c28-4c2c-bf46-b774d974557a" ParentGuid="00000000-0000-0000-0000-000000000000" Path="tags[0].id" PlaceHolder="&lt;ID2&gt;" RequiredAsInput="False" TagName="id" />
+<AppModelParameter Guid="ec314f7b-e7eb-48ce-ba9a-facfdd5e57f9" ParentGuid="00000000-0000-0000-0000-000000000000" Path="tags[0].name" PlaceHolder="&lt;NAME2&gt;" RequiredAsInput="False" TagName="name" />
+<AppModelParameter Guid="4ed905ad-838c-4b21-afe3-1d69b9151e1a" ParentGuid="00000000-0000-0000-0000-000000000000" Path="status" PlaceHolder="&lt;STATUS&gt;" TagName="status">
+<OptionalValuesList>
+<OptionalValue Guid="9b69be03-1494-4b94-adc5-87ca663ce37a" IsDefault="True" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NEW" />
+</OptionalValuesList>
+</AppModelParameter>
+</AppModelParameters>
+</ApplicationAPIModel></GingerRepositoryItem>

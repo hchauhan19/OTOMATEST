@@ -1,14 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8977f234-bc34-402c-8ff8-442eeea93812" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310160326" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310160326" />
+<GingerRepositoryItem><Header ItemGuid="8977f234-bc34-402c-8ff8-442eeea93812" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310160326" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="HCHAUHAN" LastUpdate="202310160331" />
 <BusinessFlow Guid="8977f234-bc34-402c-8ff8-442eeea93812" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" TargetApplication="MyWebServicesApp" Type="Regular" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="WS_Activity_Add Pet" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="893454bb-0530-4d96-a593-b4d788df7d59" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<APIModelParamsValue>
+<EnhancedActInputValue Guid="da57f743-3bd7-442b-b22c-7c84137cb20d" Param="&lt;ID&gt;" ParamGuid="def23539-0bb0-4c02-8673-82b397ed0ce0" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
+<EnhancedActInputValue Guid="4aece3fb-1785-4677-8af4-6b2b14a41c3a" Param="&lt;ID1&gt;" ParamGuid="ed5e5c3a-e2db-44e5-acda-de9d7c197295" ParentGuid="00000000-0000-0000-0000-000000000000" Value="10077411" />
+<EnhancedActInputValue Guid="2b5623f6-8b6e-46e3-88b1-7ab6d50222a5" Param="&lt;NAME&gt;" ParamGuid="c5d81e82-76ce-4023-8b17-c4a44c2e7fc0" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Cat" />
+<EnhancedActInputValue Guid="4140291a-a19d-4612-9c9d-9a4534dd4c85" Param="&lt;NAME1&gt;" ParamGuid="05207bb3-d284-4f5c-a06f-b409a33f927f" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Jerry" />
+<EnhancedActInputValue Guid="2f1abf72-6387-40a8-b7d5-3ed937f28eaa" Param="&lt;STATUS&gt;" ParamGuid="4ed905ad-838c-4b21-afe3-1d69b9151e1a" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NEW" />
+</APIModelParamsValue>
+
+<InputValues>
+<ActInputValue Guid="8edb2fd3-a535-435c-bd2b-137084be7e2c" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="23b2f8b2-975f-4e55-9a24-d7ee074a67e2" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+</ActWebAPIModel>
+</Acts>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="0b918d4a-18af-4cff-bb0c-c623b8816618" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ActivityName="Activity 1" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="3445c8d2-de68-4fbb-a0ca-48ec6f9eb44a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ActivityName="WS_Activity_Add Pet" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="3445c8d2-de68-4fbb-a0ca-48ec6f9eb44a" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
