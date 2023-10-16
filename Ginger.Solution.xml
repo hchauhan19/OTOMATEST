@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b432d813-796f-4976-b71f-6aaf0560e03e" ItemType="Solution" CreatedBy="HCHAUHAN" Created="202310160326" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="HCHAUHAN" LastUpdate="202310160328" />
+<GingerRepositoryItem><Header ItemGuid="b432d813-796f-4976-b71f-6aaf0560e03e" ItemType="Solution" CreatedBy="HCHAUHAN" Created="202310160326" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="meni" LastUpdate="202310160405" />
 <Solution EncryptedValidationString="L2fOMV98WXkh/Owu9eboJA==" Guid="b432d813-796f-4976-b71f-6aaf0560e03e" Name="OTOMATEST" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebServicesApp" Guid="eb921237-5d3d-4c0f-aab5-824a547f10af" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
@@ -11,7 +11,7 @@
 </ApplitoolsConfiguration>
 
 <ExecutionLoggerConfigurationSetList>
-<ExecutionLoggerConfiguration DataPublishingPhase="DuringExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="d115b654-ee42-48ef-a540-5bd0b3dc2bdd" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
+<ExecutionLoggerConfiguration CentralLoggerEndPointUrl="https://gingertest:6001/" DataPublishingPhase="DuringExecution" DeleteLocalDataOnPublish="No" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="d115b654-ee42-48ef-a540-5bd0b3dc2bdd" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" PublishLogToCentralDB="Yes" SelectedDataRepositoryMethod="LiteDB" Seq="0" />
 </ExecutionLoggerConfigurationSetList>
 
 <HTMLReportsConfigurationSetList>
