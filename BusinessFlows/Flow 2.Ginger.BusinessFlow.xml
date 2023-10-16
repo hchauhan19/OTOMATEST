@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="1e3826b9-ff2e-4b68-9a18-fca8122bad8f" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310160333" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="HCHAUHAN" LastUpdate="202310160338" />
+<BusinessFlow Guid="1e3826b9-ff2e-4b68-9a18-fca8122bad8f" Name="Flow 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="WS_C2_Group" ActivityName="WS2_Get Pet" Guid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ParentGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="WS_C2_Group" ActivityName="WS2_Delete" Guid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" ParentGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="685ae84e-72e0-4f0f-8107-29d6e61d7c8e" Name="WS_C2_Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ActivityName="WS2_Get Pet" ActivityParentGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" Guid="cb727d6a-ad35-4177-b15f-3d41fedf139f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" ActivityName="WS2_Delete" ActivityParentGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" Guid="3584e5bf-ebaf-45ab-b757-76f9e2f1fa88" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebServicesApp" Guid="e17289cb-fc74-4dac-9cd6-9f2089fef6a4" ParentGuid="eb921237-5d3d-4c0f-aab5-824a547f10af" />
+<TargetApplication AppName="MyWebServicesApp2" Guid="65d2e7c5-07bd-4a30-b465-7add5186b1ff" ParentGuid="bf5bde3f-7ce5-4c40-aab7-d550e0594e7d" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

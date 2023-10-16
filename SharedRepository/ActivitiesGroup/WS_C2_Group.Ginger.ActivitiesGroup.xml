@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="685ae84e-72e0-4f0f-8107-29d6e61d7c8e" ItemType="ActivitiesGroup" CreatedBy="HCHAUHAN" Created="202310160338" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310160338" />
+<ActivitiesGroup Guid="685ae84e-72e0-4f0f-8107-29d6e61d7c8e" Name="WS_C2_Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ActivityName="WS2_Get Pet" ActivityParentGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" Guid="cb727d6a-ad35-4177-b15f-3d41fedf139f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" ActivityName="WS2_Delete" ActivityParentGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" Guid="3584e5bf-ebaf-45ab-b757-76f9e2f1fa88" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
