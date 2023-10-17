@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ItemType="Activity" CreatedBy="meni" Created="202310170534" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310170534" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WEB_API_GET_PET" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ParentGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<ConsumerApplications>
+<Consumer ConsumerGuid="70161317-65a6-4878-925c-ad8ffbe372a3" Guid="c5b0ed64-3cf3-4c9f-a31a-497686f7da9c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+</Activity></GingerRepositoryItem>
