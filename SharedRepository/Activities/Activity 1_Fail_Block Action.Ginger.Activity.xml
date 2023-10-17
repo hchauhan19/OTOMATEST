@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310170939" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310170939" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Activity 1_Fail_Block Action" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="5a6e8e9c-8fae-4dce-b9ff-822510296829" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="e2970330-fd33-4c48-a7ea-2db5cf9ffe10" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Expected="d" Guid="511e8aea-dd94-4095-abee-28618914e35f" Operator="Equals" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActDummy>
+<ActDummy Active="True" Description="Dummy Action 2" Guid="dfe77c2f-4c1f-43ff-9e63-de2daab0f2d7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="9424f93e-e958-477e-bc7c-0e078a1af50a" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="70161317-65a6-4878-925c-ad8ffbe372a3" Guid="94c5356d-14cf-488a-9442-35fcb4a1d8ac" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+</Activity></GingerRepositoryItem>

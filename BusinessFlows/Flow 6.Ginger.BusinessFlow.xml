@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="bc052d38-004d-458d-9aac-c6c0f19fa888" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170938" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="HCHAUHAN" LastUpdate="202310170939" />
+<BusinessFlow Guid="bc052d38-004d-458d-9aac-c6c0f19fa888" Name="Flow 6" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1_Fail_Block Action" Guid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" ParentGuid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="d628fada-ca18-4013-a290-e7e3a20ce735" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" ActivityName="Activity 1_Fail_Block Action" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="72c771f8-b799-4b5d-9079-45cd57fed9df" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebServicesApp" Guid="4aa9e1c7-20e6-4c34-b5a9-044c51b2d9e8" LastExecutingAgentName="MyWebServicesApp - Agent 1" ParentGuid="eb921237-5d3d-4c0f-aab5-824a547f10af" />
+<TargetApplication AppName="MyWebApp" Guid="1a2433b2-7c35-4051-9c88-655dbd9ee20a" LastExecutingAgentName="WebAgent" ParentGuid="70161317-65a6-4878-925c-ad8ffbe372a3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
