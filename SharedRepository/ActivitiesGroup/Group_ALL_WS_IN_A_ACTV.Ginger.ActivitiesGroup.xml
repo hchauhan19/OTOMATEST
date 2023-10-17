@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="376569fd-9a9c-4e05-b0c7-6931cd321824" ItemType="ActivitiesGroup" CreatedBy="HCHAUHAN" Created="202310170754" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310170754" />
+<ActivitiesGroup Guid="376569fd-9a9c-4e05-b0c7-6931cd321824" Name="Group_ALL_WS_IN_A_ACTV" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="ff9bd07b-58e1-4b19-988f-3c7da26c4c8a" ActivityName="ALL_WS_IN_A_ACTV" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="4e66c71c-9405-4b43-996b-9f32b8823b8f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

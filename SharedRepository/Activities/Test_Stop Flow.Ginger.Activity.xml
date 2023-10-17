@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310170752" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310170752" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Test_Stop Flow" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="056c709b-17ee-4b00-807a-9e4252741585" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+<ActDummy Active="True" Description="Dummy Action" Guid="d40ce683-7144-40f6-914b-61778ab7b5af" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="StopRun" Guid="6ddce9be-ffde-4429-9d18-8c31a317b77e" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Action_Executed" />
+</FlowControls>
+
+<InputValues>
+<ActInputValue Guid="29133d8e-94e9-441d-a071-d65cbd2f0f5e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+
+<ConsumerApplications>
+<Consumer ConsumerGuid="70161317-65a6-4878-925c-ad8ffbe372a3" Guid="0d0154b8-a5c6-4f2d-9dd8-64d046a620cc" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+</Activity></GingerRepositoryItem>
