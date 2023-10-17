@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="08ecbecf-294f-4b43-a6c8-1ad5a0d90dfd" ItemType="RunSetConfig" CreatedBy="HCHAUHAN" Created="202310160338" GingerVersion="23.4.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202310160405" />
+<GingerRepositoryItem><Header ItemGuid="08ecbecf-294f-4b43-a6c8-1ad5a0d90dfd" ItemType="RunSetConfig" CreatedBy="HCHAUHAN" Created="202310160338" GingerVersion="23.4.0.0" Version="7" LastUpdateBy="HCHAUHAN" LastUpdate="202310170501" />
 <RunSetConfig Guid="08ecbecf-294f-4b43-a6c8-1ad5a0d90dfd" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsTestRecommendations="No">
 <CategoriesDefinitions>
 <SolutionCategoryDefinition Category="Product" Guid="748e740c-1f3e-4098-9b5f-e07b51305a04" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
@@ -17,7 +17,7 @@
 <GingerRunner Guid="165e65fa-472a-4b83-81a3-64add87eea85" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
 <ApplicationAgents>
 <ApplicationAgent AgentID="039f3ef1-2ae0-4f1a-8fbc-bfb3c53ec60e" AgentName="MyWebServicesApp - Agent 1" AppID="eb921237-5d3d-4c0f-aab5-824a547f10af" AppName="MyWebServicesApp" Guid="c7c5e0c1-c72f-455f-86d9-ffdef7583612" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ApplicationAgent AgentID="00000000-0000-0000-0000-000000000000" AppID="bf5bde3f-7ce5-4c40-aab7-d550e0594e7d" AppName="MyWebServicesApp2" Guid="ea455c5d-a86b-4316-97ea-997a686c460d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ApplicationAgent AgentID="00000000-0000-0000-0000-000000000000" AppID="bf5bde3f-7ce5-4c40-aab7-d550e0594e7d" AppName="MyWebServicesApp2" Guid="6e01c3ae-e5e2-42d8-8655-7a27dfcf24e6" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ApplicationAgents>
 
 <BusinessFlowsRunList>

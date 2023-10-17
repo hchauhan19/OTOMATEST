@@ -1,0 +1,7 @@
+DELETE https://petstore.swagger.io/v2/pet/1007742 HTTP/1.0
+api_key: 
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+Content-Length: 0
+Host: petstore.swagger.io
+

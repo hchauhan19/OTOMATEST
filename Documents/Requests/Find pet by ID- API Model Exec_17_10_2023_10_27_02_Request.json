@@ -1,0 +1,4 @@
+GET https://petstore.swagger.io/v2/pet/1007741 HTTP/1.0
+Accept: application/json
+Host: petstore.swagger.io
+
