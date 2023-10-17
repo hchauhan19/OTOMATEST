@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e6aabe91-e15a-4239-be6a-42ca53a32e84" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170714" GingerVersion="23.4.0.0" Version="2" LastUpdateBy="HCHAUHAN" LastUpdate="202310170729" />
+<BusinessFlow Guid="e6aabe91-e15a-4239-be6a-42ca53a32e84" Name="Flow 4" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Test_Stop Flow" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<ConsumerApplications>
+<Consumer ConsumerGuid="70161317-65a6-4878-925c-ad8ffbe372a3" Guid="ac2f9fc2-672f-4b1a-832d-e8ad8a06ea74" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ConsumerApplications>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="0cd273f0-6bd3-41c5-a255-4bf18d55c61d" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ActivityName="Test_Stop Flow" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="cd63484b-b511-4d27-913d-624f0c4822d7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebServicesApp" Guid="939ed4d7-b1aa-4bf8-811a-03deb79d63b7" ParentGuid="eb921237-5d3d-4c0f-aab5-824a547f10af" />
+<TargetApplication AppName="MyWebServicesApp2" Guid="15b696c1-4468-44af-8607-d7c2710f0871" ParentGuid="bf5bde3f-7ce5-4c40-aab7-d550e0594e7d" />
+<TargetApplication AppName="MyWebApp" Guid="ac804c33-ac42-43aa-986e-13e487dd1f1d" ParentGuid="70161317-65a6-4878-925c-ad8ffbe372a3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

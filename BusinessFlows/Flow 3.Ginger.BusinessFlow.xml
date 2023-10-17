@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="bb4f8de5-32ed-484f-b7a5-afec48466e15" ItemType="BusinessFlow" CreatedBy="meni" Created="202310170533" GingerVersion="23.4.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202310170534" />
+<GingerRepositoryItem><Header ItemGuid="bb4f8de5-32ed-484f-b7a5-afec48466e15" ItemType="BusinessFlow" CreatedBy="meni" Created="202310170533" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="HCHAUHAN" LastUpdate="202310170749" />
 <BusinessFlow Guid="bb4f8de5-32ed-484f-b7a5-afec48466e15" Name="Flow 3" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="Web_Consumer_WOACTV" ActivityName="WEB_API_GET_PET" Guid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ParentGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" Type="Link" />
 </Activities>
 
 <ActivitiesGroups>
-<ActivitiesGroup Guid="c045b576-83f1-43dd-93c0-9331adbb4804" Name="WS_Consumer_Group" ParentGuid="0b918d4a-18af-4cff-bb0c-c623b8816618" />
 <ActivitiesGroup Guid="838a9fed-62d4-4212-965b-6d1b3abbc84e" Name="Web_Consumer_WOACTV" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ActivityName="WEB_API_GET_PET" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="8e9abe4f-41c0-45d5-a992-423ba6855b9e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ActivityName="WEB_API_GET_PET" ActivityParentGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" Guid="8e9abe4f-41c0-45d5-a992-423ba6855b9e" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
+<ActivitiesGroup Guid="c045b576-83f1-43dd-93c0-9331adbb4804" Name="WS_Consumer_Group" ParentGuid="0b918d4a-18af-4cff-bb0c-c623b8816618" />
 </ActivitiesGroups>
 
 <TargetApplications>
-<TargetApplication AppName="MyWebServicesApp" Guid="fe815341-e609-47dc-aabd-a61a4ab7b82e" ParentGuid="eb921237-5d3d-4c0f-aab5-824a547f10af" />
-<TargetApplication AppName="MyWebApp" Guid="8afbd641-3b32-42a7-ac67-9717d0008744" ParentGuid="70161317-65a6-4878-925c-ad8ffbe372a3" />
+<TargetApplication AppName="MyWebServicesApp" Guid="fe815341-e609-47dc-aabd-a61a4ab7b82e" LastExecutingAgentName="MyWebServicesApp - Agent 1" ParentGuid="eb921237-5d3d-4c0f-aab5-824a547f10af" />
+<TargetApplication AppName="MyWebApp" Guid="8afbd641-3b32-42a7-ac67-9717d0008744" LastExecutingAgentName="WebAgent" ParentGuid="70161317-65a6-4878-925c-ad8ffbe372a3" />
 </TargetApplications>
 </BusinessFlow></GingerRepositoryItem>
