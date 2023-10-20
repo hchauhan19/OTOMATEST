@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ItemType="Activity" CreatedBy="meni" Created="202310170534" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310170534" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WEB_API_GET_PET" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ParentGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310200853" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310200853" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WEB_API_GET_PET" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ParentGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="d3e0d1a2-1f96-4955-a921-6ca6eda97fe4" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />
+</Acts>
+
 <ConsumerApplications>
-<Consumer ConsumerGuid="70161317-65a6-4878-925c-ad8ffbe372a3" Guid="c5b0ed64-3cf3-4c9f-a31a-497686f7da9c" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="70161317-65a6-4878-925c-ad8ffbe372a3" Guid="e80d7d31-1f57-4cb3-95be-8c6571fd8b08" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ConsumerApplications>
 </Activity></GingerRepositoryItem>

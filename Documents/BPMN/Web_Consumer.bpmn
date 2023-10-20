@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:ig="http://insightguard.com/schema/1.0/bpmn" targetNamespace="http://bpmn.io/schema/bpmn">
-  <bpmn:collaboration id="Collaboration_838a9fed-62d4-4212-965b-6d1b3abbc84e" isClosed="false" name="Web_Consumer_WOACTV">
+  <bpmn:collaboration id="Collaboration_838a9fed-62d4-4212-965b-6d1b3abbc84e" isClosed="false" name="Web_Consumer">
     <documentation id="doc_Collaboration_838a9fed-62d4-4212-965b-6d1b3abbc84e" textFormat="text/plain" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" />
     <bpmn:extensionElements xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL">
       <ig:bpmnMetadata>
-        <ig:uuid>838a9fed-62d4-4212-965b-6d1b3abbc84e</ig:uuid>
-        <ig:bpmnName>Web_Consumer_WOACTV</ig:bpmnName>
+        <ig:uuid>838a9fed-62d4-4212-965b-6d1b3abbc84f</ig:uuid>
+        <ig:bpmnName>Web_Consumer</ig:bpmnName>
         <ig:description></ig:description>
-        <ig:systemRef>70161317-65a6-4878-925c-ad8ffbe372a3</ig:systemRef>
+        <ig:systemRef>70161317-65a6-4878-925c-ad8ffbe372a4</ig:systemRef>
         <ig:domainRef>32</ig:domainRef>
         <ig:collaborationType>SUBPROCESS</ig:collaborationType>
       </ig:bpmnMetadata>

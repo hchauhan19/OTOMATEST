@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="1e3826b9-ff2e-4b68-9a18-fca8122bad8f" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310160333" GingerVersion="23.4.0.0" Version="15" LastUpdateBy="HCHAUHAN" LastUpdate="202310170747" />
+<GingerRepositoryItem><Header ItemGuid="1e3826b9-ff2e-4b68-9a18-fca8122bad8f" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310160333" GingerVersion="23.4.0.0" Version="21" LastUpdateBy="HCHAUHAN" LastUpdate="202310201226" />
 <BusinessFlow Guid="1e3826b9-ff2e-4b68-9a18-fca8122bad8f" Name="Flow 2" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="WS_C2_Group" ActivityName="WS2_Get Pet" Guid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ParentGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" Type="Link" />

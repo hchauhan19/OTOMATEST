@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="838a9fed-62d4-4212-965b-6d1b3abbc84e" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202310170534" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202310170534" />
+<GingerRepositoryItem><Header ItemGuid="838a9fed-62d4-4212-965b-6d1b3abbc84e" ItemType="ActivitiesGroup" CreatedBy="HCHAUHAN" Created="202310200853" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310200853" />
 <ActivitiesGroup Guid="838a9fed-62d4-4212-965b-6d1b3abbc84e" Name="Web_Consumer_WOACTV" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ActivityName="WEB_API_GET_PET" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="8e9abe4f-41c0-45d5-a992-423ba6855b9e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ActivityName="WEB_API_GET_PET" ActivityParentGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" Guid="8e9abe4f-41c0-45d5-a992-423ba6855b9e" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup></GingerRepositoryItem>

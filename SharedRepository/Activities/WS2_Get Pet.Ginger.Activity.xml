@@ -1,19 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310160338" GingerVersion="23.4.0.0" Version="4" LastUpdateBy="HCHAUHAN" LastUpdate="202310170747" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WS2_Get Pet" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ParentGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
+<GingerRepositoryItem><Header ItemGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310201226" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="HCHAUHAN" LastUpdate="202310201226" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="WS_C2_Group" ActivityName="WS2_Get Pet" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ParentGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <Acts>
-<ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="57ddd1c7-eeea-44f5-b3f2-08ea82c1bd60" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="a6b5c7d3-429d-4d5d-a7a4-1475d15ada19" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
 <APIModelParamsValue>
 <EnhancedActInputValue Description="{petId}in url" Guid="7e8e211a-7d51-4246-9b3e-b25728827b3c" Param="&lt;{PETID}&gt;" ParamGuid="8e97a81d-4b0d-46c1-8762-8afa16441082" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1007741" />
 </APIModelParamsValue>
 
+<FlowControls>
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="StopRun" Guid="38063903-32f4-4917-b13b-bb19bcdac02b" Operator="ActionFailed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" />
+<FlowControl Active="True" BusinessFlowControlAction="GoToBusinessFlow" FlowControlAction="StopRun" Guid="c87d7ed4-0d92-4a6c-94f2-2529009f8fda" Operator="ActionPassed" ParentGuid="00000000-0000-0000-0000-000000000000" Status="Pending" />
+</FlowControls>
+
 <InputValues>
-<ActInputValue Guid="f79ee659-eb1b-4d30-995f-693b8625d1f1" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="d8cfc7ed-28d5-42c0-8c1f-9f0c6a79e3c5" />
+<ActInputValue Guid="eaabbe82-f7b3-484d-a39d-e2c6ed45c4e8" Param="APImodelGUID" ParentGuid="00000000-0000-0000-0000-000000000000" Value="d8cfc7ed-28d5-42c0-8c1f-9f0c6a79e3c5" />
 </InputValues>
 </ActWebAPIModel>
 </Acts>
 
 <ConsumerApplications>
-<Consumer ConsumerGuid="bf5bde3f-7ce5-4c40-aab7-d550e0594e7d" Guid="17fbaa69-1265-4693-b95d-3dc49595bd13" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Consumer ConsumerGuid="bf5bde3f-7ce5-4c40-aab7-d550e0594e7d" Guid="aeea5c18-25e7-4c33-8445-caf6a960a87c" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ConsumerApplications>
 </Activity></GingerRepositoryItem>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="8f5997d7-bcf6-4efc-b5a4-edc414522370" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170752" GingerVersion="23.4.0.0" Version="4" LastUpdateBy="HCHAUHAN" LastUpdate="202310170754" />
+<GingerRepositoryItem><Header ItemGuid="8f5997d7-bcf6-4efc-b5a4-edc414522370" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170752" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="HCHAUHAN" LastUpdate="202310171518" />
 <BusinessFlow Guid="8f5997d7-bcf6-4efc-b5a4-edc414522370" Name="Flow 5" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="Group_ALL_WS_IN_A_ACTV" ActivityName="ALL_WS_IN_A_ACTV" Guid="ff9bd07b-58e1-4b19-988f-3c7da26c4c8a" ParentGuid="ff9bd07b-58e1-4b19-988f-3c7da26c4c8a" Type="Link" />
@@ -8,7 +8,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="376569fd-9a9c-4e05-b0c7-6931cd321824" Name="Group_ALL_WS_IN_A_ACTV" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="ff9bd07b-58e1-4b19-988f-3c7da26c4c8a" ActivityName="ALL_WS_IN_A_ACTV" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="4e66c71c-9405-4b43-996b-9f32b8823b8f" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="ff9bd07b-58e1-4b19-988f-3c7da26c4c8a" ActivityName="ALL_WS_IN_A_ACTV" ActivityParentGuid="ff9bd07b-58e1-4b19-988f-3c7da26c4c8a" Guid="4e66c71c-9405-4b43-996b-9f32b8823b8f" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
