@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e9f35573-c5eb-4ff6-a7e4-cdd869a4cffe" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202401121737" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401121737" />
+<ActivitiesGroup Guid="e9f35573-c5eb-4ff6-a7e4-cdd869a4cffe" Name="WebServiceGroup1_CreatePet" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="7b15db92-c847-4d2d-a79b-d04ac48dacb9" ActivityName="CreatePet_Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="508a9d98-5aac-49ef-8b21-6d39c4a0d839" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

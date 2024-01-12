@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="bc052d38-004d-458d-9aac-c6c0f19fa888" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170938" GingerVersion="23.4.0.0" Version="5" LastUpdateBy="HCHAUHAN" LastUpdate="202310170939" />
+<GingerRepositoryItem><Header ItemGuid="bc052d38-004d-458d-9aac-c6c0f19fa888" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170938" GingerVersion="23.5.0.0" Version="6" LastUpdateBy="meni" LastUpdate="202312281250" />
 <BusinessFlow Guid="bc052d38-004d-458d-9aac-c6c0f19fa888" Name="Flow 6" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1_Fail_Block Action" Guid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" ParentGuid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" Type="Link" />
@@ -8,7 +8,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="d628fada-ca18-4013-a290-e7e3a20ce735" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" ActivityName="Activity 1_Fail_Block Action" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="72c771f8-b799-4b5d-9079-45cd57fed9df" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" ActivityName="Activity 1_Fail_Block Action" ActivityParentGuid="15738431-e96e-4a17-9cb1-ad68ad51f3b3" Guid="72c771f8-b799-4b5d-9079-45cd57fed9df" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

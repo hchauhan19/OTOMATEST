@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310201226" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="HCHAUHAN" LastUpdate="202310201226" />
+<GingerRepositoryItem><Header ItemGuid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310201226" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312281250" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="WS_Consumer_Group" ActivityName="WS_Activity_Add Pet" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ParentGuid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Add a new pet to the store-JSON- API Model Execution" Guid="65ac02ae-8675-45fc-81a2-592066cf2a11" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">

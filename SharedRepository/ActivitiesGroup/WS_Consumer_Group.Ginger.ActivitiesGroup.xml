@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="0b918d4a-18af-4cff-bb0c-c623b8816618" ItemType="ActivitiesGroup" CreatedBy="HCHAUHAN" Created="202310160332" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310160332" />
+<GingerRepositoryItem><Header ItemGuid="0b918d4a-18af-4cff-bb0c-c623b8816618" ItemType="ActivitiesGroup" CreatedBy="HCHAUHAN" Created="202310160332" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312281250" />
 <ActivitiesGroup Guid="0b918d4a-18af-4cff-bb0c-c623b8816618" Name="WS_Consumer_Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5cd07565-6e68-4362-93bc-4dc1addcb8e6" ActivityName="WS_Activity_Add Pet" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="3445c8d2-de68-4fbb-a0ca-48ec6f9eb44a" ParentGuid="00000000-0000-0000-0000-000000000000" />

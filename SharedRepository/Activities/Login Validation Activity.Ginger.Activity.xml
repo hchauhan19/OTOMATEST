@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="07bd172d-701a-4016-bc97-d06fc9084541" ItemType="Activity" CreatedBy="meni" Created="202401121737" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401121737" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Login Validation Activity" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="07bd172d-701a-4016-bc97-d06fc9084541" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActUIElement Active="True" Description="Click - Get Text" Guid="9f80f937-f905-4299-91f6-e2198d7bb417" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="dff2899f-9d13-49dd-9e77-06ee81b57504" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GetValue" />
+<ActInputValue Guid="42746749-7db0-48ab-9b54-f22a26734cf0" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="POMElement" />
+<ActInputValue Guid="f44fd9e9-d7f7-4956-bdae-7215c56e57a1" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="8cad925d-1631-4eb2-afb6-37dd8fc8adb5_fe052a4a-b9c2-4c20-9344-2ff329df32bd" />
+<ActInputValue Guid="aabd7247-d4fc-42a6-a86e-60f8a6a43cd8" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Span" />
+<ActInputValue Guid="38e213b2-fc41-418a-b179-aefc94d31886" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="819ccb82-de28-40bd-9a9b-3940604c3431" Param="XCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="b16ef9d4-74c5-4129-93ad-519e4689d14b" Param="ValueToSelect" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="f0b951f5-f7fb-4446-8b0c-8cd952a60edb" Param="YCoordinate" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="48b59e6e-6176-4c86-b57b-476a7f8f0511" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="baec0246-3762-4321-9cc3-07201c268882" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="6616db8d-1ac0-46bd-a11f-6b7226a675c1" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="33739656-b04c-4568-a852-51b8ad81d067" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="01827dfe-0792-4d7a-970f-72d728359b9e" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Expected="Products" Guid="4809f95f-9757-4071-8fae-9bb3753e0959" Operator="Equals" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" />
+</ReturnValues>
+</ActUIElement>
+</Acts>
+</Activity></GingerRepositoryItem>

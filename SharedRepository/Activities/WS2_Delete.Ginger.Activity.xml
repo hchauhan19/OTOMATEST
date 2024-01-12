@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310200923" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310200923" />
+<GingerRepositoryItem><Header ItemGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310200923" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312281250" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WS2_Delete" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" ParentGuid="b9dc0711-179e-4c18-b3b6-b4563c694c8b" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Deletes a pet- API Model Execution" Guid="3d082b91-ad72-47ce-af62-f94b75b992fb" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310201226" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="HCHAUHAN" LastUpdate="202310201226" />
+<GingerRepositoryItem><Header ItemGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310201226" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312281250" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="WS_C2_Group" ActivityName="WS2_Get Pet" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" ParentGuid="dfb28dce-c1ea-4aa7-a038-599e51414f1e" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <Acts>
 <ActWebAPIModel Active="True" Description="Find pet by ID- API Model Execution" Guid="a6b5c7d3-429d-4d5d-a7a4-1475d15ada19" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">

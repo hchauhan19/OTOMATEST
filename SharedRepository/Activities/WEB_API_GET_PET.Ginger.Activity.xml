@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310200853" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310200853" />
+<GingerRepositoryItem><Header ItemGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310200853" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312281250" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WEB_API_GET_PET" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="14c89038-fe5a-4784-aee5-a29c5e96de9d" ParentGuid="14c89038-fe5a-4784-aee5-a29c5e96de9d" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Dummy Action" Guid="d3e0d1a2-1f96-4955-a921-6ca6eda97fe4" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />

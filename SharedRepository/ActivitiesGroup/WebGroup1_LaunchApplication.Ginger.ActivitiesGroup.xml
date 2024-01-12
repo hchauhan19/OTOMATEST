@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="cd65655c-c047-406f-9cd7-600839ffdcc5" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202401121737" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401121737" />
+<ActivitiesGroup Guid="cd65655c-c047-406f-9cd7-600839ffdcc5" Name="WebGroup1_LaunchApplication" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="eeda1159-27ff-4d49-8bdc-f7d135bc32fc" ActivityName="Launch URL" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="e9f6ecb4-820c-4cb4-8fde-c5f562195406" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="64982020-e2d5-4a29-b10a-5dd60f34b5c8" ActivityName="Enter Credentials" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2b4af492-e5eb-4f3e-88ea-6aafd671cf47" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>

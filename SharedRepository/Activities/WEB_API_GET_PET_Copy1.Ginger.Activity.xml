@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="464d7e63-3889-4bf9-a8d4-8d17ff2afd92" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310200851" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310200851" />
+<GingerRepositoryItem><Header ItemGuid="464d7e63-3889-4bf9-a8d4-8d17ff2afd92" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310200851" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312281250" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="WEB_API_GET_PET_Copy1" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="464d7e63-3889-4bf9-a8d4-8d17ff2afd92" ParentGuid="464d7e63-3889-4bf9-a8d4-8d17ff2afd92" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <ConsumerApplications>
 <Consumer ConsumerGuid="70161317-65a6-4878-925c-ad8ffbe372a3" Guid="f7500883-f33b-4a83-8c1c-7ea50cd9802a" ParentGuid="00000000-0000-0000-0000-000000000000" />

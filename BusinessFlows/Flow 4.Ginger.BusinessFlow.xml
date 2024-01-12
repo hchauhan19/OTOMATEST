@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="e6aabe91-e15a-4239-be6a-42ca53a32e84" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170714" GingerVersion="23.4.0.0" Version="3" LastUpdateBy="HCHAUHAN" LastUpdate="202310170752" />
+<GingerRepositoryItem><Header ItemGuid="e6aabe91-e15a-4239-be6a-42ca53a32e84" ItemType="BusinessFlow" CreatedBy="HCHAUHAN" Created="202310170714" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312281250" />
 <BusinessFlow Guid="e6aabe91-e15a-4239-be6a-42ca53a32e84" Name="Flow 4" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity Active="True" ActivitiesGroupID="Group" ActivityName="Test_Stop Flow" Guid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ParentGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" Type="Link" />
@@ -8,7 +8,7 @@
 <ActivitiesGroups>
 <ActivitiesGroup Guid="0cd273f0-6bd3-41c5-a255-4bf18d55c61d" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ActivityName="Test_Stop Flow" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="cd63484b-b511-4d27-913d-624f0c4822d7" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ActivityName="Test_Stop Flow" ActivityParentGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" Guid="cd63484b-b511-4d27-913d-624f0c4822d7" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>

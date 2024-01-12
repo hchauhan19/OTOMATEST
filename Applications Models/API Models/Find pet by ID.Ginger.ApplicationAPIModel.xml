@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="d8cfc7ed-28d5-42c0-8c1f-9f0c6a79e3c5" ItemType="ApplicationAPIModel" CreatedBy="HCHAUHAN" Created="202310160329" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310160329" />
+<GingerRepositoryItem><Header ItemGuid="d8cfc7ed-28d5-42c0-8c1f-9f0c6a79e3c5" ItemType="ApplicationAPIModel" CreatedBy="HCHAUHAN" Created="202310160329" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312281250" />
 <ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" EndpointURL="https://petstore.swagger.io/v2/pet/&lt;{PETID}&gt;" Guid="d8cfc7ed-28d5-42c0-8c1f-9f0c6a79e3c5" Name="Find pet by ID" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="GET" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~eb921237-5d3d-4c0f-aab5-824a547f10af" URLDomain="https://petstore.swagger.io/v2">
 <AppModelParameters>
 <AppModelParameter Description="{petId}in url" Guid="8e97a81d-4b0d-46c1-8762-8afa16441082" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="&lt;{PETID}&gt;" />

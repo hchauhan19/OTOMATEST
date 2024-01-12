@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="233a90c6-fa2e-470c-bd11-cffd25e8824b" ItemType="BusinessFlow" CreatedBy="meni" Created="202312281251" GingerVersion="23.5.0.0" Version="4" LastUpdateBy="meni" LastUpdate="202312281254" />
+<BusinessFlow Guid="233a90c6-fa2e-470c-bd11-cffd25e8824b" Name="Flow 7" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActivitiesGroupID="Flow 7_Group2" ActivityName="Flow 7_Group2_Activity" Guid="60e0fa5c-dbe3-4eb5-94f2-417fcbe31b7c" LinkedActive="False" ParentGuid="60e0fa5c-dbe3-4eb5-94f2-417fcbe31b7c" Type="Link" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Flow 7_Group3" ActivityName="Flow 7_Group3_Activity" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="5b58432e-e070-42c6-9d39-a4ca8512ac1c" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="313ce75c-21fc-43d8-9386-f1c36f050ca4" Name="Flow 7_Group2" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="60e0fa5c-dbe3-4eb5-94f2-417fcbe31b7c" ActivityName="Flow 7_Group2_Activity" ActivityParentGuid="60e0fa5c-dbe3-4eb5-94f2-417fcbe31b7c" Guid="887a05c4-612b-460d-9d3c-3624fcab9b04" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="1f7724fa-8087-452a-8f13-08999acd9b4a" Name="Flow 7_Group3" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="5b58432e-e070-42c6-9d39-a4ca8512ac1c" ActivityName="Flow 7_Group3_Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="6f389976-e288-46ae-8ead-eae0787ba39d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="8d4564e8-d430-4d65-bd9a-f2e70416f9f7" Name="Flow 7_Group1" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="6aa80326-79b8-4900-8f6b-4076c94cd538" ParentGuid="70161317-65a6-4878-925c-ad8ffbe372a3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

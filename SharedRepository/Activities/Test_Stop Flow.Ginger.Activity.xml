@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310170752" GingerVersion="23.4.0.0" Version="1" LastUpdateBy="HCHAUHAN" LastUpdate="202310170752" />
+<GingerRepositoryItem><Header ItemGuid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ItemType="Activity" CreatedBy="HCHAUHAN" Created="202310170752" GingerVersion="23.5.0.0" Version="2" LastUpdateBy="meni" LastUpdate="202312281250" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Test_Stop Flow" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="feca80f2-e325-4f6b-b0dc-97b79e91c4d7" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebServicesApp" Type="Regular">
 <Acts>
 <ActDummy Active="True" Description="Dummy Action" Guid="056c709b-17ee-4b00-807a-9e4252741585" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow" />

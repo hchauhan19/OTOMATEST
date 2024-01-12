@@ -1,0 +1,25 @@
+HTTP/1.1 OK
+Date: Fri, 20 Oct 2023 13:41:20 GMT
+Connection: close
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+Content-Type: application/json
+
+{
+  "id": 1007741,
+  "category": {
+    "id": 10077411,
+    "name": "Cat"
+  },
+  "name": "Jerry",
+  "photoUrls": [],
+  "tags": [
+    {
+      "id": 0,
+      "name": ""
+    }
+  ],
+  "status": "NEW"
+}

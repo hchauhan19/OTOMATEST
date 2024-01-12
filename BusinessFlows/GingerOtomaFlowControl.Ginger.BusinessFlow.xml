@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="2eb53b5b-7e07-4081-b484-b4a76491f11c" ItemType="BusinessFlow" CreatedBy="meni" Created="202401121726" GingerVersion="23.5.0.0" Version="7" LastUpdateBy="meni" LastUpdate="202401121738" />
+<BusinessFlow Guid="2eb53b5b-7e07-4081-b484-b4a76491f11c" Name="GingerOtomaFlowControl" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity Active="True" ActivitiesGroupID="WebGroup1_LaunchApplication" ActivityName="Launch URL" Guid="eeda1159-27ff-4d49-8bdc-f7d135bc32fc" ParentGuid="eeda1159-27ff-4d49-8bdc-f7d135bc32fc" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="WebGroup1_LaunchApplication" ActivityName="Enter Credentials" Guid="64982020-e2d5-4a29-b10a-5dd60f34b5c8" ParentGuid="64982020-e2d5-4a29-b10a-5dd60f34b5c8" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="WebGroup2_LoginValidation" ActivityName="Login Validation Activity" Guid="07bd172d-701a-4016-bc97-d06fc9084541" ParentGuid="07bd172d-701a-4016-bc97-d06fc9084541" Type="Link" />
+<Activity Active="True" ActivitiesGroupID="WebServiceGroup1_CreatePet" ActivityName="CreatePet_Activity" Guid="7b15db92-c847-4d2d-a79b-d04ac48dacb9" ParentGuid="7b15db92-c847-4d2d-a79b-d04ac48dacb9" Type="Link" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="cd65655c-c047-406f-9cd7-600839ffdcc5" Name="WebGroup1_LaunchApplication" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="eeda1159-27ff-4d49-8bdc-f7d135bc32fc" ActivityName="Launch URL" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="e9f6ecb4-820c-4cb4-8fde-c5f562195406" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="64982020-e2d5-4a29-b10a-5dd60f34b5c8" ActivityName="Enter Credentials" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="2b4af492-e5eb-4f3e-88ea-6aafd671cf47" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="f01e165a-73ae-4ad7-a3df-5c4210d7d1e1" Name="WebGroup2_LoginValidation" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="07bd172d-701a-4016-bc97-d06fc9084541" ActivityName="Login Validation Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="47d9ea48-43d0-4e53-b069-4f8604b2551a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+<ActivitiesGroup Guid="e9f35573-c5eb-4ff6-a7e4-cdd869a4cffe" Name="WebServiceGroup1_CreatePet" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Automated" ActivityGuid="7b15db92-c847-4d2d-a79b-d04ac48dacb9" ActivityName="CreatePet_Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="508a9d98-5aac-49ef-8b21-6d39c4a0d839" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebServicesApp" Guid="18406bd0-b703-4cb9-874b-05057803fc0f" ParentGuid="eb921237-5d3d-4c0f-aab5-824a547f10af" />
+<TargetApplication AppName="MyWebApp" Guid="f1f77182-b08c-4947-9d14-36fb989a1dd5" ParentGuid="70161317-65a6-4878-925c-ad8ffbe372a3" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

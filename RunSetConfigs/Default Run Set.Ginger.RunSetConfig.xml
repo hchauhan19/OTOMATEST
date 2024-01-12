@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="08ecbecf-294f-4b43-a6c8-1ad5a0d90dfd" ItemType="RunSetConfig" CreatedBy="HCHAUHAN" Created="202310160338" GingerVersion="23.4.0.0" Version="10" LastUpdateBy="HCHAUHAN" LastUpdate="202310170943" />
+<GingerRepositoryItem><Header ItemGuid="08ecbecf-294f-4b43-a6c8-1ad5a0d90dfd" ItemType="RunSetConfig" CreatedBy="HCHAUHAN" Created="202310160338" GingerVersion="23.5.0.0" Version="11" LastUpdateBy="meni" LastUpdate="202312281250" />
 <RunSetConfig Guid="08ecbecf-294f-4b43-a6c8-1ad5a0d90dfd" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000" SealightsTestRecommendations="No">
 <CategoriesDefinitions>
 <SolutionCategoryDefinition Category="Product" Guid="748e740c-1f3e-4098-9b5f-e07b51305a04" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedValueID="00000000-0000-0000-0000-000000000000" />
@@ -26,10 +26,6 @@
 </BusinessFlowsRunList>
 </GingerRunner>
 </GingerRunners>
-
-<ReRunConfigurations>
-<ReRunConfig Guid="971761f2-a729-4f92-9bf5-0cc965ebd155" ParentGuid="00000000-0000-0000-0000-000000000000" RerunLevel="Runner" />
-</ReRunConfigurations>
 
 <SelfHealingConfiguration>
 <SelfHealingConfig EnableSelfHealing="True" Guid="6acd8d2e-8b0c-40cc-a128-bdd3511d33cc" ParentGuid="00000000-0000-0000-0000-000000000000" ReprioritizePOMLocators="True" />

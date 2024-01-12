@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="f01e165a-73ae-4ad7-a3df-5c4210d7d1e1" ItemType="ActivitiesGroup" CreatedBy="meni" Created="202401121737" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401121737" />
+<ActivitiesGroup Guid="f01e165a-73ae-4ad7-a3df-5c4210d7d1e1" Name="WebGroup2_LoginValidation" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="07bd172d-701a-4016-bc97-d06fc9084541" ActivityName="Login Validation Activity" ActivityParentGuid="00000000-0000-0000-0000-000000000000" Guid="47d9ea48-43d0-4e53-b069-4f8604b2551a" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup></GingerRepositoryItem>
