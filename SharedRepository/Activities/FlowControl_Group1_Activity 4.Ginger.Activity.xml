@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6f772903-a050-4371-bf7e-78dceb9739aa" ItemType="Activity" CreatedBy="meni" Created="202401121801" GingerVersion="23.5.0.0" Version="1" LastUpdateBy="meni" LastUpdate="202401121801" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="FlowControl_Group1_Activity 4" AutomationStatus="Automated" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="6f772903-a050-4371-bf7e-78dceb9739aa" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" POMMetaDataId="00000000-0000-0000-0000-000000000000" Publish="True" TargetApplication="MyWebApp" Type="Regular">
+<Acts>
+<ActDummy Active="True" Description="Dummy Action" Guid="d05166fd-3220-4a4a-94df-5140c059fa26" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="56d0e3cc-c2d9-4d7f-9855-69e972e325b5" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActDummy>
+</Acts>
+</Activity></GingerRepositoryItem>
